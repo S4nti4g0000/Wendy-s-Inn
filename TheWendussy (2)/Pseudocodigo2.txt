@@ -1,0 +1,53 @@
+
+Iniciar los metodos de matter
+
+Crear engine
+Crear Renderer
+Crear Runner
+Correr Renderer
+
+
+Definir Circulo = circulo(posición
+Definir lanzador con constraint = crear constraint {punto de ancla, Círculo, fuerza del lanzador}
+Definir borde1 = rectangulo (Sprite: Madera)
+Definir borde2 = rectangulo (Sprite: Madera)
+Definir borde3 = rectangulo (Sprite: Madera)
+Definir borde4 = rectangulo (Sprite: Madera)
+Definir borde5 = rectangulo (Sprite: Madera)
+Definir borde6 = rectangulo (Sprite: Madera)
+Definir borde7 = rectangulo (Sprite: Madera)
+Definir borde8 = rectangulo (Sprite: Madera)
+Definir borde9 = rectangulo (Sprite: Madera)
+
+
+
+definir puerta1 = rectangulo (Render: Transparente, Sin colisión = true, en ángulo de 90°)
+definir puerta2 = rectangulo (Render: Transparente, Sin colisión = true, en ángulo de 90°)
+definir puerta3 = rectangulo (Render: Transparente, Sin colisión = true, en ángulo de 90°)
+
+
+Crear array de objetos[borde1,borde2,borde3,borde4,borde6,borde7, borde8, borde6,puerta1,puerta2,puerta3]
+
+Definir zona de colisión1 = rectangulo (Sensor = true, transparente)
+Definir zona de colisión2 = rectangulo (Sensor = true, transparente)
+Definir zona de colisión3 = rectangulo (Sensor = true, transparente)
+
+Crear array de colisiones[colisión1,colisión2,colisión3]
+
+Preguntar por evento(en el engine, cada frame, función{
+
+	si(el click del mouse = false y el circulo está mas alla del constraint){
+		lanzar el circulo
+		Añadir nuevo circulo
+	}
+}
+
+Preguntar por evento(en el engine, si hay una colisión, función(){
+	
+	si(el circulo está tocando zona de colisión){
+		
+		Puerta = Activar colisiones
+
+	}
+
+}

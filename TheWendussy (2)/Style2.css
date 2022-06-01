@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Subtext';
+    src: url(./fonts/LEMONMILK-RegularItalic.otf);
+}
+
+@keyframes opAnim{
+
+    0% {opacity: 0;}
+    50% {opacity: .5;}
+    0% {opacity: 0;}
+
+}
+
+body{
+
+    overflow: hidden;
+    background: url(./img/cuarto.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover ;
+    z-index: -10;
+
+}
+
+.go-back{
+
+    position: fixed;
+    border: none;
+    margin-left: -1rem;
+    margin-top: 10.5rem;
+    width: 16rem;
+    height: 40rem;
+    opacity: 0;
+
+}
+.go-back:hover{
+
+    background-color: rgb(74, 114, 1);
+    animation: opAnim ease infinite;
+    animation-duration: 2s;
+
+}
+.go-back:active{
+
+    background-color: rgb(35, 54, 0);
+
+}
+
+.response-txt{
+
+    font-family: 'Subtext';  font-size: 10rem;
+    color: aliceblue;
+
+}
+
+.game-kyle{
+
+    position: fixed;
+    border: none;
+    margin-left: 80rem;
+    margin-top: 36rem;
+    width: 19rem;
+    height: 16rem;
+    opacity: 0;
+
+
+}
+
+.game-kyle:hover{
+
+    background-color: rgb(74, 114, 1);
+    animation: opAnim ease infinite;
+    animation-duration: 2s;
+
+}
+
+.flipy{
+
+    position: fixed;
+    border: double;
+
+}

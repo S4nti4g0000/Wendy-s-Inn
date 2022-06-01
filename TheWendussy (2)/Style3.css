@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Subtext';
+    src: url(./fonts/LEMONMILK-RegularItalic.otf);
+}
+
+@keyframes opAnim{
+
+    0% {opacity: 0;}
+    50% {opacity: .5;}
+    0% {opacity: 0;}
+
+}
+
+body{
+
+    overflow: hidden;
+    background: url(./img/pasillo.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover ;
+    z-index: -10;
+
+}
+
+.go-back2{
+
+    position: fixed;
+    border: none;
+    margin-left: -1rem;
+    margin-top: 53.2rem;
+    width: 150rem;
+    height: 5rem;
+    opacity: 0;
+
+}
+
+.go-back2:hover{
+
+    background-color: rgb(74, 114, 1);
+    animation: opAnim ease infinite;
+    animation-duration: 2s;
+
+}
+
+.go-back2:active{
+
+    background-color: rgb(35, 54, 0);
+
+}
+
+.under-butt{
+
+    position: fixed;
+    border: none;
+    margin-left: 39.6rem;
+    margin-top: 31rem;
+    width: 4.5rem;
+    height: 13rem;
+    opacity: 0;
+
+}
+
+.under-butt:hover{
+
+    background-color: rgb(74, 114, 1);
+    animation: opAnim ease infinite;
+    animation-duration: 2s;
+
+}
+
+.under-butt:active{
+
+    background-color: rgb(35, 54, 0);
+
+}
+
+.response-txt{
+
+    font-family: 'Subtext';  font-size: 10rem;
+    color: aliceblue;
+
+}

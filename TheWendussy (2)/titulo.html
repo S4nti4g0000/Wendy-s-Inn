@@ -1,0 +1,72 @@
+<html>
+
+    <head>
+<title>WENDY'S INN</title>
+
+    </head>
+
+    <body>
+    
+
+        
+        <div id="scene">
+            
+                <!-- titulo que aparece en la pestaña de la página-->
+        <titulo> WENDY'S INN</titulo>
+
+            <!-- boton para llevar a otro html al hacer click en el y comenzar el juego-->
+        <p id="situation"> Click <a href="dos_puertas.html">Here </a> to Start</p>
+        </div>
+
+        
+
+        <style>
+
+                body{
+                    font-size: 50px;
+                   
+                    color: red;
+                    font-family: papyrus;
+
+                     /*imagen de fondo*/
+                    
+                     overflow: hidden;
+                      background: url(./wendigo.png) no-repeat center center fixed;
+                      -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                     -o-background-size: cover;
+                        background-size: cover ;
+                        z-index: -10;
+                }
+
+                titulo{
+                    font-size: 100px;
+                    padding: 0 0 0 0;
+                    margin: 0 0 0 0;
+
+                    position: absolute;
+                    left: 500px;
+                }
+                a {
+                    color: red;
+                    text-decoration: none;
+                }
+                a:hover
+                {
+                    text-decoration: underline;
+                }
+
+              
+                #situation
+                {
+                    /*posicion del texto de start*/
+                    position: absolute;
+                    left: 680px;
+                    top: 700px;
+                }
+        </style>
+
+
+    </body>
+
+</html>

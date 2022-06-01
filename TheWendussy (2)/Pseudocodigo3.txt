@@ -1,0 +1,24 @@
+Proceso Juego wendy´s inn
+
+
+Escribir "titulo"
+Escribir "Texto explicatico de inicio"
+
+
+Dar Estilo a "titulo"
+Definir id para un botton de traslado de escena entre htmls y poner el html al que manda
+
+Dar estilo al Background
+Dar posición y tamaño al background 
+Dar color y a los textos
+
+
+Dar un hover al boton de traslado que aparezca en pantalla
+
+Dar estilo al Background de los otros html
+Definir id para un botton de traslado de escena entre htmls y poner el html al que manda
+
+Poner video con jumpscare en el html correspondiente
+añadir boton de salida en el html del jumpscare
+
+Cada boton al final del recorrido debe de llevar a la pantalla de titulo

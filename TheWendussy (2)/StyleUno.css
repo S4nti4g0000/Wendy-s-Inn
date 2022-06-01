@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Subtext';
+    src: url(./fonts/LEMONMILK-RegularItalic.otf);
+}
+
+body{
+
+    overflow: hidden;
+    background:url() no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -0-background-size: cover;
+    background-size: cover;
+    z-index: -10;
+
+}
+
+
+
+

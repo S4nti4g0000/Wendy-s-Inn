@@ -1,0 +1,40 @@
+body{
+
+    overflow: hidden;
+    background: url('./img/background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover ;
+
+    margin-left: 17rem;
+    margin-top: 7rem;
+
+}
+
+.go-back{
+
+    position: fixed;
+    margin-bottom: 10px;
+    border: none;
+    color: cornsilk;
+    background-color: rgb(133, 0, 0);
+    font-size: 3rem;
+    z-index: 10;
+    box-shadow: 10, 5 azure;
+
+}
+
+.go-back:hover{
+
+    border: dotted;
+    background-color: rgb(73, 0, 0);
+
+}
+
+.go-back:active{
+
+    border: dotted;
+    background-color: #ff0000;
+
+}

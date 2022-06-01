@@ -1,0 +1,94 @@
+<html>
+
+    <head>
+<title>WENDY'S INN</title>
+
+    </head>
+
+    <body>
+    
+
+        
+        <div id="scene">
+            
+        <a href="dos_puertas_2.html" id="puerta1"> </a>
+
+        <a href="dos_puertas_3.html" id="puerta2"> </a>
+
+            <!-- boton para llevar a otro html al hacer click en el y comenzar el juego-->
+        <p id="situation"> choose a door and find the way out of the hotel</p>
+        </div>
+
+        
+
+        <style>
+
+                body{
+                    font-size: 50px;
+                    
+                    color: red;
+                    font-family: papyrus;
+
+                     /*imagen de fondo*/
+                    
+                     overflow: hidden;
+                      background: url(./dos\ puertas.png) no-repeat center center fixed;
+                      -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                     -o-background-size: cover;
+                        background-size: cover ;
+                        z-index: -10;
+                }
+
+               
+                a {
+                    color: red;
+                    text-decoration: none;
+                }
+                a:hover
+                {
+                    text-decoration: underline;
+                }
+
+                #situation
+                {
+                    /*posicion del texto de start*/
+                    position: absolute;
+                    left: 400px;
+                    top: 700px;
+                }
+                #puerta1
+                {
+                   
+                    position: absolute;
+                    left: 490px;
+                    top: 320px;
+
+                    width: 300;
+                    height: 350;
+
+                }
+                #puerta1:hover{
+                    background-color: rgba(256, 256, 256,.5);
+                }
+
+                #puerta2
+                {
+                   
+                    position: absolute;
+                    left: 940px;
+                    top: 320px;
+
+                    width: 300;
+                    height: 350;
+
+                }
+                #puerta2:hover{
+                    background-color: rgba(256, 256, 256,.5);
+                }
+        </style>
+
+
+    </body>
+
+</html>

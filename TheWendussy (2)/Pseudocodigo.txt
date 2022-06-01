@@ -1,0 +1,32 @@
+Proceso Juego
+
+Definir: Piso, pelota, objetivo
+Definir: constantes matter js
+
+
+funcion SetUp(){
+
+Crear canvas
+crear engine y world de matter js
+crear objetos en el mundo: 
+ - pelota, objetivos, piso
+crear el mouse
+crear constraint
+
+
+funcion Recargar(){
+
+remover objeto usado
+crear nuevo objeto
+agregar constraint al nuevo objeto
+
+
+funcion dibujar(){
+Pintar canvas 
+ejecutar engine Matter js
+
+Pintar Objetos
+Pintar Constraint
+
+
+

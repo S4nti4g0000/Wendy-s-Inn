@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Subtext';
+    src: url(./fonts/LEMONMILK-RegularItalic.otf);
+}
+
+@keyframes opAnim{
+
+    0% {opacity: 0;}
+    50% {opacity: .5;}
+    0% {opacity: 0;}
+
+}
+
+body{
+
+    overflow: hidden;
+    background: url(./img/escenario\ 1.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover ;
+    z-index: -10;
+
+}
+
+.response-txt{
+
+    font-family: 'Subtext';  font-size: 10rem;
+    color: aliceblue;
+}
+
+.z2{
+
+    position: fixed;
+    border: none;
+    margin-left: -1rem;
+    margin-top: 53.2rem;
+    width: 150rem;
+    height: 5rem;
+    opacity: 0;
+
+}
+
+.z2:hover{
+
+    background-color: rgb(74, 114, 1);
+    animation: opAnim ease infinite;
+    animation-duration: 2s;
+
+}
+
+.z2:active{
+
+    background-color: rgb(35, 54, 0);
+
+}
